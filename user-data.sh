@@ -27,3 +27,4 @@ kill -9 $(lsof -t -i :3000)
 
 echo "starting the server"
 node node_net.js
+
