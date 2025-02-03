@@ -85,8 +85,8 @@ const server = net
 
 server.listen(
   {
-    host: "localhost",
-    port: 8080,
+    host: "0.0.0.0",
+    port: 3000,
     exclusive: true,
   },
   () => {
